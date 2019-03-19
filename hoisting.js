@@ -1,3 +1,4 @@
+var lyric ="maybe"
 function callMe() {
   var lyric = "maybe";
   console.log("I just met you...");
@@ -11,6 +12,7 @@ function crazy() {
   // fix the code in here:
 
   var thisIsCrazy = function (){
+    thisIsCrazy();
     console.log("hey!!!")
   }
   thisIsCrazy();
